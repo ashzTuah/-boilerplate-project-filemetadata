@@ -36,7 +36,6 @@ app.post('/api/fileanalyse', upload.single('upfile'), (req, res) => {
   });
 });
 
-
 // Start the server
 const port = process.env.PORT || 3002;
 app.listen(port, function () {
